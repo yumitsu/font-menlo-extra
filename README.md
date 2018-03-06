@@ -19,8 +19,15 @@ As for me, I like original `Menlo` spacings and aligns, so I decided to stick wi
 + IEC Power Symbols
 + Font Linux
 
-### Who is who
-+ `Menlo-Regular-Full` - font with all icons and glyphs.
-+ `Menlo-Regular-Normal` - font with added `powerline`(with ext), `font awesome`(with ext) and `octicons`.
-+ `Menlo-Regular-NormalV2` - same as `Menlo-Regular-Normal`, but with aligned `powerline` glyphs.
-+ `Menlo-Regular-*-Mono` - monospace variant (single-width glyphs).
+### Who is who (versions)
++ `*-Full` - version with all icons and glyphs.
++ `*-Normal` - version with added `powerline`(with ext), `font awesome`(with ext) and `octicons`.
++ `*-FullV2` - same version as `*-Full`, but with aligned `powerline` glyphs.
++ `*-NormalV2` - same version as `*-Normal`, but with aligned `powerline` glyphs.
++ `*-Mono` - same version, but in monospace variant (with single-width glyphs).
+
+### Can I preview these glyphs in app like Symbols Viewer?
+I guess you can't. These glyphs placed in `Private Use Area` (starting from U+E000) and Symbols Viewer cannot show them.
+On OS X, use `Font Book.app`.
+
+Also, you can use helper scripts [from here](https://github.com/ryanoasis/nerd-fonts/tree/master/bin/scripts/lib) to test glyphs in terminal.
